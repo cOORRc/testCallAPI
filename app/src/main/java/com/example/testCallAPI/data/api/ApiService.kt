@@ -24,7 +24,7 @@ interface ApiService {
 
     @GET("albums/")
     //For complex query parameter เป็น link : https://jsonplaceholder.typicode.com/albums/?id=46&userId=5
-    //id=46&userId=5 ชื่อลิ้งในส่วน id, userId เป็น HashMap กำหนดในหน้าที่เรียกใช้งานฟังก์ชันนี้
+    //id=46&userId=5 ชื่อลิ้งในส่วน id, userId เป็น HashMap กำหนดในหน้าที่เรียกใช้งานฟังก์ชันนี้.
     fun getAlbumsMap(@QueryMap map:HashMap<String,Int>): Call<List<Album>>
 
     companion object{

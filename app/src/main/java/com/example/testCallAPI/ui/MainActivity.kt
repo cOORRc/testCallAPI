@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this,"click",Toast.LENGTH_SHORT).show()
 
             // val apiService: ApiService = ApiService.retroBuilder()
-            // หรือเรียกใช้แบบ invoke บรรทัดด้านล่างนี้
+            // หรือเรียกใช้แบบ invoke บรรทัดด้านล่างนี้.
             apiService = ApiService()
             //getAlbumWithNo(5)
             //getAlbumWithUserID(5)
